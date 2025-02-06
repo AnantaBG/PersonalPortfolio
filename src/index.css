@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 body {
     background: #1f1f38;
@@ -26,6 +29,20 @@ lg:75% 3/4
 md:86% 17/20
 sm:90% 9/10
 */
+
+nav a {
+    color: rgba(255, 255, 255, 1);
+}
+
+nav a.active{
+    border-radius:1rem;
+    color:rgb(0, 255, 8);
+}
+
+nav a:hover{
+    color: rgba(255, 255, 255, 0.6);
+}
+
 a {
     color: #4db5ff;
     transition: all 400ms ease;

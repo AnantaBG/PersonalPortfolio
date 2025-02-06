@@ -6,7 +6,7 @@ const Header = () => {
         <header className='h-screen pt-28 overflow-hidden mb-20'>
             <div className=" text-center h-full relative  lg:w-3/4 mx-auto md:w-10/12 w-11/12">
             <div>
-            <h1 className='text-xl mb-2'>Hello I`m</h1>
+            <h1 className='text-xl mb-2'>Hello I&apos;m</h1>
             <h1 className="text-4xl mb-3 font-mono font-bold">Ananta Banik</h1>
             <h1 className="opacity-50 text-xl">Frontend Devoloper</h1>
             </div>
