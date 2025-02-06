@@ -1,3 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    background: #1f1f38;
+    color: white;
+    font-family: "Poppins", serif;
+    line-height: 1.7;
+    background-image: url(../src/assets/bg-texture.png);
+}
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+/* 
+--color-bg:#1f1f38;
+--color-bg-variant:#2c2c6c
+--color-primary:#4db5ff
+--color-white
+--color-light: rgba(255, 255, 255, 0.6)
+lg:75% 3/4
+md:86% 17/20
+sm:90% 9/10
+*/
+a {
+    color: #4db5ff;
+    transition: all 400ms ease;
+}
+
+a:hover {
+    color: white;
+
+}
+
+.btn{
+    width: max-content;
+    display: inline-block;
+    color: #4db5ff;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid #4db5ff;
+    transition: all 400ms ease;
+}
+.btn:hover {
+background: white;
+color: #1f1f38;
+border-color: transparent;
+}
+.btn-primary {
+    background: #4db5ff;
+    color: #1f1f38;
+}
+ img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+ }
