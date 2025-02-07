@@ -9,7 +9,7 @@ const EducationalQ = () => {
                     </div>
                     <div className="grid  mt-5 lg:grid-cols-2 gap-3 lg:gap-1 mb-5">
                         <div>
-                        <Card className="bg-transparent backdrop-blur-3xl hover:backdrop-brightness-75 min-h-72 ">
+                        <Card className="bg-transparent backdrop-blur-3xl border-transparent shadow-md shadow-blue-400 hover:backdrop-brightness-75 min-h-72 ">
                             <h1 className="text-4xl mb-5">Intermediate</h1>
                             <div className="">
 
@@ -35,7 +35,7 @@ const EducationalQ = () => {
                         </Card>
                         </div>
                         <div>
-                        <Card className="bg-transparent backdrop-blur-3xl hover:backdrop-brightness-75 min-h-72  ">
+                        <Card className="bg-transparent backdrop-blur-3xl border-transparent shadow-md shadow-blue-400 hover:backdrop-brightness-75 min-h-72  ">
                         <h1 className="text-4xl mb-5">Bachelor/Hon&apos;s</h1>
                         <div className="">
                         <table className="min-w-full border-collapse">

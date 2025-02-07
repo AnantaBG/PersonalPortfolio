@@ -178,7 +178,7 @@ const Portfolio = () => {
       </div>
       <div className="grid md:grid-cols-2 grid-cols-1 gap-2">
         {projects.map((project) => (
-          <Card key={project.title} className="bg-transparent">
+          <Card key={project.title} className="bg-transparent border-transparent shadow-md shadow-blue-400">
             <div>
               <img src={project.image} alt={project.title} />
             </div>

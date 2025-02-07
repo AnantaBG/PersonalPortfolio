@@ -17,7 +17,7 @@ const Experience = () => {
             </div>
             <div className="grid  mt-5 md:grid-cols-2 gap-2 mb-5">
                 <div>
-                <Card className="bg-transparent backdrop-blur-3xl hover:backdrop-brightness-75 min-h-96">
+                <Card className="bg-transparent backdrop-blur-3xl border-transparent shadow-md shadow-blue-400 hover:backdrop-brightness-75 min-h-96">
                     <h1 className="text-4xl mb-5">Frontend</h1>
                     <div className="grid grid-cols-3 gap-y-8">
                         <div className="flex flex-col">
@@ -58,7 +58,7 @@ const Experience = () => {
                 </Card>
                 </div>
                 <div>
-                <Card className="bg-transparent backdrop-blur-3xl hover:backdrop-brightness-75 min-h-96 ">
+                <Card className="bg-transparent backdrop-blur-3xl border-transparent shadow-md shadow-blue-400 hover:backdrop-brightness-75 min-h-96 ">
                 <h1 className="text-4xl mb-5">Backend</h1>
                 <div className="grid text-4xl grid-cols-3 gap-y-12">
                 <div className="flex flex-col ">
