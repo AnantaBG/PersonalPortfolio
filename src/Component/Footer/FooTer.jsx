@@ -8,10 +8,10 @@ const FooTer = () => {
             <div>
               <Footer.Title title="Ananta" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">About</Footer.Link>
-                <Footer.Link href="#">Careers</Footer.Link>
-                <Footer.Link href="#">Brand Center</Footer.Link>
-                <Footer.Link href="#">Blog</Footer.Link>
+                <Footer.Link href="#">Home</Footer.Link>
+                <Footer.Link href="#about">About</Footer.Link>
+                <Footer.Link href="#portfolio">Projects</Footer.Link>
+                <Footer.Link href="#experience">Experience</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
