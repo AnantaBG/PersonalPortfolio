@@ -26,7 +26,7 @@ const Header = () => {
             <div>
             <HeaderSoc></HeaderSoc>
             </div>
-            <div className='bg-gradient-to-r from-[#4db5ff] to-transparent w-[22rem] h-[30rem] absolute left-[calc(50%-11rem)] mt-16 rounded-tl-[12rem] rounded-tr-[12rem] pt-28 overflow-hidden'>
+            <div className='bg-gradient-to-r from-[#4db5ff] to-transparent w-[22rem] h-[30rem] absolute left-[calc(50%-11rem)] mt-16 rounded-tl-[12rem] rounded-tr-[12rem] pt-12 overflow-hidden'>
                 <img className=' ' src={Me} alt="" />
             </div>
             <div className='sm:visible  invisible absolute -right-9 bottom-20 rotate-90'>

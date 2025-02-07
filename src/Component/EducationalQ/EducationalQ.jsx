@@ -3,7 +3,7 @@ import { Card } from "flowbite-react";
 
 const EducationalQ = () => {
     return (
-        <div className="mt-20 lg:w-3/4 mx-auto md:w-10/12 w-11/12 " id="experience">
+        <div className="mt-20 lg:w-3/4 mx-auto md:w-10/12 w-full " id="experience">
                     <div className="flex mb-10 flex-col justify-center  mx-auto text-center">
                         <h2 className="sm:text-3xl text-2xl mt-6 text-[#4db5ff]">My Educational Qualification</h2>
                     </div>

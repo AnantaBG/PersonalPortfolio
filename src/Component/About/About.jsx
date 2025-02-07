@@ -29,7 +29,7 @@ const About = () => {
                    <p className='opacity-50 text-xs'>5 Projects Completed</p>
                 </Card>
                 </div>
-                <div className='ml-2 mt-5'>
+                <div className='ml-2 mt-10'>
                     <p>Hi, I&apos;m Ananta Banik, a passionate and driven web developer eager to contribute to innovative projects.  I&apos;m constantly learning and expanding my skillset, and I&apos;m excited to connect with opportunities in the web development world.</p>
                 <div>
                 <h1 className='text-2xl text-[#4db5ff]'>Interests:</h1>

@@ -145,7 +145,7 @@ console.log(name, email, message)
       </button>
     </form>
             </Card>
-            <div className='md:visible  invisible relative -rotate-90 translate-x-10'>
+            <div className='md:visible  invisible relative -rotate-90 '>
             <a href="#" className="text-2xl">Scroll Top</a>
             </div>
                 </div>
