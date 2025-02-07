@@ -31,6 +31,16 @@ const About = () => {
                 </div>
                 <div className='ml-2 mt-5'>
                     <p>Hi, I&apos;m Ananta Banik, a passionate and driven web developer eager to contribute to innovative projects.  I&apos;m constantly learning and expanding my skillset, and I&apos;m excited to connect with opportunities in the web development world.</p>
+                <div>
+                <h1 className='text-2xl text-[#4db5ff]'>Interests:</h1>
+                <ul className='ml-20'>
+                    <li>Cricket</li>
+                    <li>Reading Web Novels</li>
+                    <li>Travelling</li>
+                </ul>
+                </div>
+                
+
                 <a href="#contact" className='btn btn-primary mt-5'>Let&apos;s Talk</a>
                 </div>
             </div>

@@ -6,8 +6,6 @@ import FooTer from "./Component/Footer/FooTer"
 import Header from "./Component/Header/Header"
 import NavBar from "./Component/Navbar/NavBar"
 import Portfolio from "./Component/Porfolio/Portfolio"
-import Services from "./Component/Services/Services"
-import Testimonials from "./Component/Testimonials/Testimonials"
 
 function App() {
 
@@ -17,10 +15,8 @@ function App() {
       <NavBar></NavBar>
       <About></About>
       <Experience></Experience>
-      <Services></Services>
-      <Portfolio></Portfolio>
       <EducationalQ></EducationalQ>
-      <Testimonials></Testimonials>
+      <Portfolio></Portfolio>
       <Contact></Contact>
       <FooTer></FooTer>
     </div>
