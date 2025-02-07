@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
-import { RiHeart2Line, } from "react-icons/ri";
+import { CgViewCols } from "react-icons/cg";
 
 const NavBar = () => {
     const [activeNav, setaActiveNav] = useState('#');
@@ -11,11 +11,9 @@ const NavBar = () => {
             <a onClick={()=> setaActiveNav('#')} className={activeNav === '#' ? 'active':''} href="#"><AiOutlineHome/> </a>
             <a onClick={()=> setaActiveNav('#about')} className={activeNav === '#about' ? 'active':''} href="#about"><AiOutlineUser/></a>
             <a onClick={()=> setaActiveNav('#experience')} className={activeNav === '#experience' ? 'active':''} href="#experience"><BiBook/> </a>
-            <a onClick={()=> setaActiveNav('#services')} className={activeNav === '#services' ? 'active':''} href="#services"><RiHeart2Line/> </a>
+            <a onClick={()=> setaActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active':''} href="#portfolio"><CgViewCols/> </a>
             <a onClick={()=> setaActiveNav('#contact')} className={activeNav === '#contact' ? 'active':''} href="#contact"><BiMessageSquareDetail/></a>
             </div>
-            
-
         </nav>
     );
 };
