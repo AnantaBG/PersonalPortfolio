@@ -15,7 +15,7 @@ const Experience = () => {
                 <h5 className="mt-5">What Skills I Have?</h5>
                 <h2 className="text-3xl mt-6 text-[#4db5ff]">My Skills</h2>
             </div>
-            <div className="grid  mt-5 grid-cols-2 gap-2 mb-5">
+            <div className="grid  mt-5 md:grid-cols-2 gap-2 mb-5">
                 <div>
                 <Card className="bg-transparent backdrop-blur-3xl hover:backdrop-brightness-75 min-h-96">
                     <h1 className="text-4xl mb-5">Frontend</h1>
