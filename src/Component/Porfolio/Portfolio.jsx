@@ -201,8 +201,8 @@ const Portfolio = () => {
       {/* Modal */}
       {selectedProject && ( // Only render the modal if a project is selected
         <Modal show={showModal} onClose={() => setShowModal(false)}>
-          <Modal.Header className='bg-stone-500'>{selectedProject.title}</Modal.Header>
-          <Modal.Body className='bg-stone-500'>
+          <Modal.Header className=''>{selectedProject.title}</Modal.Header>
+          <Modal.Body className='bg-[#1f1f38]'>
             <div >
             <p className='text-3xl'>Technologies Used:<br /><span className='text-sm font-extrabold font-mono'>FrontEnd:</span> <span className='text-xs'> {selectedProject.technologies.frontend}</span>
             <br /><span className='text-sm font-extrabold font-mono'>BackEnd:</span> <span className='text-xs'> {selectedProject.technologies.backend}</span>
@@ -231,7 +231,7 @@ const Portfolio = () => {
             <p className='ml-5'>{selectedProject.features[4].details}</p>
             </div>
           </Modal.Body>
-          <Modal.Footer className='bg-stone-500'>
+          <Modal.Footer className=''>
           <a target='_blank' href={selectedProject.liveDemo} className="btn-primary btn">
               Live Demo
             </a>

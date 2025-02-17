@@ -17,15 +17,15 @@ const About = () => {
                 <div className='flex  mx-auto flex-col'>
                 <div className="md:flex grid grid-cols-3 mt-3 max-h-36 text-center justify-center mx-auto ml-2 gap-1 ">
                 <Card className='mb-2 bg-transparent border-transparent shadow-md shadow-blue-400 backdrop-blur-3xl hover:backdrop-brightness-75'>
-                   <h1 className=''><FaAward className='text-2xl mx-auto mb-2 text-[#4db5ff]'></FaAward> <h5>Experience</h5></h1>
+                   <div className=''><FaAward className='text-2xl mx-auto mb-2 text-[#4db5ff]'></FaAward> <h5>Experience</h5></div>
                    <p className='text-xs opacity-50'>6 Months  Learning</p>
                 </Card>
                 <Card className='border-transparent shadow-md shadow-blue-400 mb-2 bg-transparent backdrop-blur-3xl hover:backdrop-brightness-75'>
-                   <h1 className=''><FiUsers className='text-2xl mx-auto mb-2 text-[#4db5ff]'></FiUsers> <h5>Clients</h5></h1>
+                   <div className=''><FiUsers className='text-2xl mx-auto mb-2 text-[#4db5ff]'></FiUsers> <h5>Clients</h5></div>
                    <p className=' opacity-50 text-xs'>Hired 6 Times</p>
                 </Card>
                 <Card className='border-transparent shadow-md shadow-blue-400 mb-2 bg-transparent backdrop-blur-3xl hover:backdrop-brightness-75'>
-                   <h1 className=''><VscFolderLibrary className='text-2xl mx-auto mb-2 text-[#4db5ff]'></VscFolderLibrary> <h5>Projects</h5></h1>
+                   <div className=''><VscFolderLibrary className='text-2xl mx-auto mb-2 text-[#4db5ff]'></VscFolderLibrary> <h5>Projects</h5></div>
                    <p className='opacity-50 text-xs'>5 Projects Completed</p>
                 </Card>
                 </div>

@@ -11,10 +11,10 @@ const Contact = () => {
     const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-console.log(name, email, message)
+// console.log(name, email, message)
 
   const handleSubmit = async (e) => {
-    e.preventDefault(); // Prevent default form submission
+    e.preventDefault();
     emailjs
       .sendForm('Portfolio', 'template_x5ztkvi', form.current, {
         publicKey: '4p9RWWAptUPgixjFE',
